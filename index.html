@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- ======= CSS ======= -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- ======= Boxicons CSS ======= -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<!-- ======= FontAwesome CSS ======= -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+	<title>SideBar</title>
+</head>
+<body>
+	<nav class="sidebar close">
+		<header>
+			<div class="image-text">
+				<span class="image">
+					<img src="logo.png" alt="VK">
+				</span>
+
+				<div class="text header-text">
+					<span class="name">VKONTAKTE</span>
+					<!-- <span class="profession">Web developer</span> -->
+				</div>
+			</div>
+
+			<i class='bx bx-chevron-right toggle'></i>
+		</header>
+
+		<div class="menu-bar">
+			<div class="menu">
+				<li class="search-box">
+					<i class='bx bx-search-alt icon'></i>
+					<input type="text" placeholder="Search...">
+				</li>
+				<ul class="menu-links">
+
+					<li class="nav-links">
+						<a href="#">
+							<i class='bx bx-user-circle icon'></i>
+							<span class="text nav-text">Profile</span>
+						</a>
+					</li>
+
+					<li class="nav-links">
+						<a href="#">
+							<i class='bx bx-news icon'></i>
+							<span class="text nav-text">News</span>
+						</a>
+					</li>
+
+					<li class="nav-links">
+						<a href="#">
+							<i class='bx bx-message-square-dots icon'></i>
+							<span class="text nav-text">Messenger</span>
+						</a>
+					</li>
+
+					<li class="nav-links">
+						<a href="#">
+							<i class='bx bx-user icon'></i>
+							<span class="text nav-text">Friends</span>
+						</a>
+					</li>
+
+					<li class="nav-links">
+						<a href="#">
+							<i class='bx bx-group icon'></i>
+							<span class="text nav-text">Communities</span>
+						</a>
+					</li>
+
+					<li class="nav-links">
+						<a href="#">
+							<i class='bx bx-photo-album icon'></i>
+							<span class="text nav-text">Photos</span>
+						</a>
+					</li>
+
+					<li class="nav-links">
+						<a href="#">
+							<i class='bx bx-music icon'></i>
+							<span class="text nav-text">Music</span>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="bottom-content">
+				<li class="">
+					<a href="#">
+						<i class='bx bx-log-out icon'></i>
+						<span class="text nav-text">Logout</span>
+					</a>
+				</li>
+
+				<li class="mode">
+					<div class="moon-sun">
+						<i class='bx bx-moon icon moon'></i>
+						<i class='bx bx-sun icon sun'></i>
+					</div>
+
+					<span class="mode-text text">Dark Mode</span>
+
+					<div class="toggle-switch">
+						<span class="switch"></span>
+					</div>
+
+				</li>
+			</div>
+		</div>
+	</nav>
+
+		<!-- ======= JS ======= -->
+		<script src="script.js"></script>
+
+		<section class="home">
+			<div class="text">Dashboard</div>
+		</section>
+
+</body>
+</html>
